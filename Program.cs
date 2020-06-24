@@ -10,6 +10,12 @@ namespace c_sharp_intro
             string myName = "Osa";
             // use the + operator to concatenate Hello and the value of myName variable
             Console.WriteLine("Hello, " + myName);
+
+            Console.WriteLine("Enter your name followed by the Enter key...");
+            // assign string entered from the console to the username Variable
+            string userName = Console.ReadLine();
+            // print entered string to console using string interpolation.
+            Console.WriteLine($"Thanks {userName}");
         }
     }
 }
