@@ -16,6 +16,8 @@ namespace c_sharp_intro
             string userName = Console.ReadLine();
             // print entered string to console using string interpolation.
             Console.WriteLine($"Thanks {userName}");
+            // Substring takes two arguements. !. starting position 2. Number of characters to return
+            Console.WriteLine("1234567890".Substring(2, 5));
         }
     }
 }
