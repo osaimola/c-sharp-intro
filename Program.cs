@@ -52,8 +52,6 @@ namespace c_sharp_intro
             Console.WriteLine(5 != 5); // false
             Console.WriteLine(5 != 10); // true
 
-
-
         }
     }
 }
