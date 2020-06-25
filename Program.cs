@@ -39,6 +39,20 @@ namespace c_sharp_intro
             Console.WriteLine("String" + 5 + 5); // If string comes first everything is concatenated => String55
             Console.WriteLine(5 + 5 + "String"); // calculations before strings are handled before concatenation => 10String
 
+            // Output a variable
+            Console.WriteLine(myInt);  //42
+
+            // A new assignment on an existing variable
+            myInt = myInt + 2;
+            Console.WriteLine(myInt); //44
+
+            // some shorthand...
+            myInt++; // same as typing myInt = myInt + 1
+            myInt--; // same as typing myInt = myInt - 1
+
+            myInt += 10; // same as typing myInt = myInt + 10
+            myInt -= 10; // same as typing myInt = myInt - 10
+
 
 
         }
